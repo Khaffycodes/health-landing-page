@@ -14,11 +14,11 @@
   }
 
   .btn-sm {
-    @apply h-14 px-10;
+    @apply h-12 px-8;
   }
 
   .btn-lg {
-    @apply h-16 px-[50px];
+    @apply h-14 px-[40px];
   }
 
   .btn-accent {
@@ -60,18 +60,18 @@
   }
 
   .h1 {
-    @apply text-[36px] xl:text-[64px] font-semibold;
+    @apply text-[28px] xl:text-[40px] font-semibold;
   }
 
   .h2 {
-    @apply text-[30px] xl:[44px] font-semibold capitalize tracking-[0.44px];
+    @apply text-[24px] xl:[30px] font-semibold capitalize tracking-[0.44px];
   }
   .h3 {
-    @apply text-[20px] xl:[26px] font-semibold;
+    @apply text-[18px] xl:[24px] font-semibold;
   }
 
   .h4 {
-    @apply text-[20px] xl:[26px] font-semibold capitalize;
+    @apply text-[14px] xl:[20px] font-semibold capitalize;
   }
 }
 
