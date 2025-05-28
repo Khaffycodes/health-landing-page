@@ -45,7 +45,7 @@
   }
 
   .select {
-    @apply py-12 xl:py-[150px];
+    @apply py-12 xl:py-[15px];
   }
 }
 
@@ -64,14 +64,14 @@
   }
 
   .h2 {
-    @apply text-[24px] xl:[30px] font-semibold capitalize tracking-[0.44px];
+    @apply text-[24px] xl:text-[30px] font-semibold capitalize tracking-[0.44px];
   }
   .h3 {
-    @apply text-[18px] xl:[24px] font-semibold;
+    @apply text-[18px] xl:text-[24px] font-semibold;
   }
 
   .h4 {
-    @apply text-[14px] xl:[20px] font-semibold capitalize;
+    @apply text-[14px] xl:text-[20px] font-semibold capitalize;
   }
 }
 

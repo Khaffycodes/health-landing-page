@@ -30,7 +30,6 @@
     />
     <!----------Swiper's CSS & Swiper JS--------- -->
     <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
-    <script src="../js/swiper-bundle.min.js" defer></script>
 
     <!----------Swiper's CSS--------- -->
     <!-- <link
@@ -231,7 +230,7 @@
       </div>
     </section>
     <!-- stats section -->
-    <section class="mt-8 stats section xl:mt-12">
+    <section class="my-8 stats section xl:mt-12">
       <div class="container mx-auto">
         <!-- wrapper -->
         <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
@@ -280,11 +279,219 @@
       </div>
     </section>
     <!-- services section -->
+    <section class="services">
+      <div
+        class="bg-services bg-cover bg-no-repeat max-w-[1446px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10"
+      >
+        <div class="container mx-auto">
+          <div
+            class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]"
+          >
+            <h2
+              class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left"
+            >
+              Our best services for your solution
+            </h2>
+            <p
+              class="text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none"
+            >
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              quidem amet incidunt veniam doloribus minus adipisci harum
+              deserunt architecto aspernatur? Dolor culpa, harum aperiam
+              pariatur quasi eius reprehenderit doloribus voluptatum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto mt-8 xl:-mt-[144px]">
+        <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 xl:px-0">
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[268px] flex flex-col items-center text-center"
+          >
+            <div class="mb-[15px]">
+              <img src="/dist/img/icon-1.svg" alt="" />
+            </div>
+            <h3 class="h3 mb-[10px]">General Practitioners</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing amet elit.
+            </p>
+          </div>
+
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[268px] flex flex-col items-center text-center"
+          >
+            <div class="mb-[15px]">
+              <img src="/dist/img/icon-2.svg" alt="" />
+            </div>
+            <h3 class="h3 mb-[10px]">Pregnancy Support</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing amet elit.
+            </p>
+          </div>
+
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[268px] flex flex-col items-center text-center"
+          >
+            <div class="mb-[15px]">
+              <img src="/dist/img/icon-3.svg" alt="" />
+            </div>
+            <h3 class="h3 mb-[10px]">Nutritional Support</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing amet elit.
+            </p>
+          </div>
+
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[268px] flex flex-col items-center text-center"
+          >
+            <div class="mb-[15px]">
+              <img src="/dist/img/icon-4.svg" alt="" />
+            </div>
+            <h3 class="h3 mb-[10px]">Pharmaceutical Care</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing amet elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- appointment section -->
+    <section class="appointment__section">
+      <div class="container mx-auto">
+        <h2
+          class="h2 appointment__title mb-5 xl:mb-[50px] text-center xl:text-left"
+        >
+          Book appointment or call :<span class="block text-accent-tertiary"
+            >(+234) 678 2456</span
+          >
+        </h2>
+        <form class="appointment__form flex flex-col gap-y-5">
+          <!-- select wrapper -->
+          <div class="flex flex-col xl:flex-row gap-5">
+            <div class="select relative flex items-center py-3">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-fit w-full px-4 bg-transparent"
+              >
+                <option value="1">Select Department</option>
+                <option value="2">Department 1</option>
+                <option value="3">Department 2</option>
+                <option value="4">Department 3</option>
+              </select>
+            </div>
+
+            <div class="select relative flex items-center py-3">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-fit w-full px-4 bg-transparent"
+              >
+                <option value="1">Select Doctors</option>
+                <option value="2">Dr John Doe</option>
+                <option value="3">Dr Khaf Salau</option>
+                <option value="4">Dr Shile Khaffy</option>
+              </select>
+            </div>
+          </div>
+          <!-- input wrapper -->
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="text" placeholder="Full Name" class="input" />
+            <input type="text" placeholder="Phone Number" class="input" />
+          </div>
+          <!-- input wrapper -->
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="date" class="input" />
+            <input type="time" class="input" />
+          </div>
+          <button class="btn btn-lg btn-accent self-start" type="submit">
+            Book an appointment
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- testimonials section -->
+    <section
+      class="testimonials bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[400px] xl:py-0"
+    >
+      <div class="testimonials__container container mx-auto">
+        <div class="flex flex-col items-center gap-x-14 xl:flex-row">
+          <div class="hidden xl:flex">
+            <img src="/dist/img/img-testimonials.png" alt="testimonials__img" />
+          </div>
+
+          <!-- slider -->
+          <div class="max-w-[98%] xl:max-w-[710px]">
+            <!-- Slider main container -->
+            <div class="swiper h-[400px]">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="h-full flex flex-col justify-center items-start">
+                    <div class="max-w-[680px] mx-auto text-center xl:text-left">
+                      <p
+                        class="mb-7 font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:top-0 before:inline-block before:w-10 before:h-10 before:bg-no-repeat after:bg-quoteRight after:bg-contain after:bg-bottom after:top-0 after:inline-block after:w-10 after:h-10 after:bg-no-repeat"
+                      >
+                        <span class="mx-2"
+                          >Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Voluptas, explicabo! Ipsa sapiente dicta sint
+                          explicabo minus iusto!oluptas, explicabo! Ipsa
+                        </span>
+                      </p>
+                      <div class="text-[26px] text-[#4c5354] font-semibold">
+                        James Rodrigo
+                      </div>
+                      <div
+                        class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"
+                      >
+                        Customer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="h-full flex flex-col justify-center items-start">
+                    <div class="max-w-[680px] mx-auto text-center xl:text-left">
+                      <p
+                        class="mb-7 font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:top-0 before:inline-block before:w-10 before:h-10 before:bg-no-repeat after:bg-quoteRight after:bg-contain after:bg-bottom after:top-0 after:inline-block after:w-10 after:h-10 after:bg-no-repeat"
+                      >
+                        <span class="mx-2"
+                          >Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Voluptas, explicabo! Ipsa sapiente dicta sint
+                          explicabo minus iusto!oluptas, explicabo! Ipsa
+                        </span>
+                      </p>
+                      <div class="text-[26px] text-[#4c5354] font-semibold">
+                        James Rodrigo
+                      </div>
+                      <div
+                        class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"
+                      >
+                        Customer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Swiper pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- temp div -->
     <div class="h-[4000px]"></div>
     <!--------Script JS--------- -->
     <script src="../js/main.js"></script>
     <!----------Scrollreveal JS--------- -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!----------Swiper JS--------- -->
+    <script src="../js/swiper-bundle.min.js" defer></script>
   </body>
 </html>
