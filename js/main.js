@@ -19,14 +19,3 @@ closeBtn.addEventListener('click', () => {
   closeBtnIcon.classList.toggle(arrowLeftClass);
   closeBtnIcon.classList.toggle(arrowRightClass);
 });
-
-//Swiper
-// swiper;
-// const swiper = new Swiper('.swiper', {
-//   loop: true,
-
-//   pagination: {
-//     el: '.swiper-pagination',
-//     clickable: true,
-//   },
-// });

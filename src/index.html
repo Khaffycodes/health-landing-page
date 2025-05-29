@@ -29,13 +29,10 @@
       rel="stylesheet"
     />
     <!----------Swiper's CSS & Swiper JS--------- -->
-    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
-
-    <!----------Swiper's CSS--------- -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    /> -->
+    />
   </head>
   <body>
     <!-- header -->
@@ -414,7 +411,7 @@
     </section>
     <!-- testimonials section -->
     <section
-      class="testimonials bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[400px] xl:py-0"
+      class="testimonials bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[550px] xl:py-0"
     >
       <div class="testimonials__container container mx-auto">
         <div class="flex flex-col items-center gap-x-14 xl:flex-row">
@@ -423,7 +420,7 @@
           </div>
 
           <!-- slider -->
-          <div class="max-w-[98%] xl:max-w-[710px]">
+          <div class="max-w-[98%] xl:max-w-[500px]">
             <!-- Slider main container -->
             <div class="swiper h-[400px]">
               <!-- Additional required wrapper -->
@@ -466,7 +463,7 @@
                         </span>
                       </p>
                       <div class="text-[26px] text-[#4c5354] font-semibold">
-                        James Rodrigo
+                        Peter Pan
                       </div>
                       <div
                         class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"
@@ -484,14 +481,24 @@
         </div>
       </div>
     </section>
+    <!-- team section -->
+    <section class="team"></section>
 
     <!-- temp div -->
     <div class="h-[4000px]"></div>
     <!--------Script JS--------- -->
     <script src="../js/main.js"></script>
+
+    <!----------Swiper JS--------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: { el: '.swiper-pagination', clickable: true },
+      });
+    </script>
+
     <!----------Scrollreveal JS--------- -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!----------Swiper JS--------- -->
-    <script src="../js/swiper-bundle.min.js" defer></script>
   </body>
 </html>
