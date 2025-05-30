@@ -84,5 +84,5 @@
 
 /* faq */
 .faq__item.open .faq__answer {
-  @apply h-full;
+  @apply h-fit;
 }
