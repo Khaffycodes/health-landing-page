@@ -1695,6 +1695,10 @@ h1,
     row-gap: 40px;
   }
 
+  .xl\:gap-y-0 {
+    row-gap: 0px;
+  }
+
   .xl\:border-r {
     border-right-width: 1px;
   }
