@@ -810,6 +810,14 @@ body {
   margin-top: 2rem;
 }
 
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
 .block {
   display: block;
 }
@@ -867,6 +875,10 @@ body {
   min-height: 268px;
 }
 
+.min-h-\[588px\] {
+  min-height: 588px;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -922,6 +934,14 @@ body {
 
 .max-w-\[98\%\] {
   max-width: 98%;
+}
+
+.max-w-\[1466px\] {
+  max-width: 1466px;
+}
+
+.max-w-\[555px\] {
+  max-width: 555px;
 }
 
 .flex-1 {
@@ -1021,6 +1041,10 @@ body {
   row-gap: 1.5rem;
 }
 
+.gap-y-\[30px\] {
+  row-gap: 30px;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -1065,6 +1089,15 @@ body {
   border-right-width: 1px;
 }
 
+.border-\[\#\] {
+  border-color: #;
+}
+
+.border-\[\#dcdcdc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 220 220 / var(--tw-border-opacity, 1));
+}
+
 .bg-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(232 240 241 / var(--tw-bg-opacity, 1));
@@ -1092,12 +1125,20 @@ body {
   background-image: url(../dist/img/bg-testimonials.svg);
 }
 
+.bg-departments {
+  background-image: url(../dist/img/bg-dept.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-right {
   background-position: right;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -1618,6 +1659,14 @@ h1,
     width: 48%;
   }
 
+  .xl\:w-\[310px\] {
+    width: 310px;
+  }
+
+  .xl\:w-\[640px\] {
+    width: 640px;
+  }
+
   .xl\:max-w-\[500px\] {
     max-width: 500px;
   }
@@ -1638,8 +1687,20 @@ h1,
     align-items: flex-start;
   }
 
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:gap-y-\[40px\] {
+    row-gap: 40px;
+  }
+
   .xl\:border-r {
     border-right-width: 1px;
+  }
+
+  .xl\:bg-auto {
+    background-size: auto;
   }
 
   .xl\:px-0 {
@@ -1664,11 +1725,31 @@ h1,
     padding-top: 70px;
   }
 
+  .xl\:pb-\[90px\] {
+    padding-bottom: 90px;
+  }
+
+  .xl\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
+  .xl\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .xl\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
 
   .xl\:text-\[44px\] {
     font-size: 44px;
+  }
+
+  .xl\:text-\[17px\] {
+    font-size: 17px;
   }
 }
