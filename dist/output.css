@@ -1031,6 +1031,10 @@ body {
   gap: 30px;
 }
 
+.gap-\[14px\] {
+  gap: 14px;
+}
+
 .gap-x-14 {
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
@@ -1074,6 +1078,19 @@ body {
 
 .gap-y-\[30px\] {
   row-gap: 30px;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-x-\[6px\] {
+  -moz-column-gap: 6px;
+       column-gap: 6px;
 }
 
 .self-start {
@@ -1163,6 +1180,11 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-pink-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 231 243 / var(--tw-bg-opacity, 1));
+}
+
 .bg-departments {
   background-image: url(../dist/img/bg-dept.svg);
 }
@@ -1193,6 +1215,14 @@ body {
 
 .p-\[30px\] {
   padding: 30px;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .px-12 {
@@ -1286,6 +1316,14 @@ body {
   padding-top: 1.75rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1315,6 +1353,10 @@ body {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .font-light {
@@ -1382,6 +1424,11 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-accent-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(24 171 188 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -1868,6 +1915,14 @@ h1,
 
   .xl\:pt-\[80px\] {
     padding-top: 80px;
+  }
+
+  .xl\:pt-\[150px\] {
+    padding-top: 150px;
+  }
+
+  .xl\:pb-\[100px\] {
+    padding-bottom: 100px;
   }
 
   .xl\:text-left {
