@@ -841,6 +841,10 @@ body {
   margin-top: 2rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1027,12 +1031,12 @@ body {
   gap: 2.25rem;
 }
 
-.gap-\[30px\] {
-  gap: 30px;
-}
-
 .gap-\[14px\] {
   gap: 14px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-x-14 {
@@ -1060,8 +1064,21 @@ body {
        column-gap: 10px;
 }
 
+.gap-x-\[6px\] {
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
 .gap-y-12 {
   row-gap: 3rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
 }
 
 .gap-y-4 {
@@ -1078,19 +1095,6 @@ body {
 
 .gap-y-\[30px\] {
   row-gap: 30px;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
-.gap-y-3 {
-  row-gap: 0.75rem;
-}
-
-.gap-x-\[6px\] {
-  -moz-column-gap: 6px;
-       column-gap: 6px;
 }
 
 .self-start {
@@ -1141,6 +1145,10 @@ body {
   border-right-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-\[\#dcdcdc\] {
   --tw-border-opacity: 1;
   border-color: rgb(220 220 220 / var(--tw-border-opacity, 1));
@@ -1149,6 +1157,11 @@ body {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+.border-t-red-700 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
 }
 
 .bg-accent {
@@ -1180,11 +1193,6 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-pink-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 231 243 / var(--tw-bg-opacity, 1));
-}
-
 .bg-departments {
   background-image: url(../dist/img/bg-dept.svg);
 }
@@ -1213,16 +1221,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.p-\[30px\] {
-  padding: 30px;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
 }
 
 .px-12 {
@@ -1300,6 +1304,15 @@ body {
   padding-bottom: 6px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1312,16 +1325,16 @@ body {
   padding-right: 1rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .text-center {
@@ -1342,6 +1355,10 @@ body {
   font-size: 22px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .text-\[26px\] {
   font-size: 26px;
 }
@@ -1353,10 +1370,6 @@ body {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
 }
 
 .font-light {
@@ -1406,6 +1419,11 @@ body {
   color: rgb(28 188 207 / var(--tw-text-opacity, 1));
 }
 
+.text-accent-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(24 171 188 / var(--tw-text-opacity, 1));
+}
+
 .text-accent-tertiary {
   --tw-text-opacity: 1;
   color: rgb(144 198 205 / var(--tw-text-opacity, 1));
@@ -1424,11 +1442,6 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-accent-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(24 171 188 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -1687,6 +1700,17 @@ h1,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (min-width: 640px) {
+  .sm\:border-none {
+    border-style: none;
+  }
+
+  .sm\:border-t-red-700 {
+    --tw-border-opacity: 1;
+    border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
+  }
+}
+
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
@@ -1706,6 +1730,10 @@ h1,
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:border-t {
+    border-top-width: 1px;
   }
 
   .md\:text-left {
@@ -1875,6 +1903,10 @@ h1,
     border-right-width: 1px;
   }
 
+  .xl\:border-t {
+    border-top-width: 1px;
+  }
+
   .xl\:bg-auto {
     background-size: auto;
   }
@@ -1893,6 +1925,10 @@ h1,
     padding-bottom: 0px;
   }
 
+  .xl\:pb-\[100px\] {
+    padding-bottom: 100px;
+  }
+
   .xl\:pb-\[90px\] {
     padding-bottom: 90px;
   }
@@ -1909,20 +1945,16 @@ h1,
     padding-top: 0.75rem;
   }
 
+  .xl\:pt-\[150px\] {
+    padding-top: 150px;
+  }
+
   .xl\:pt-\[70px\] {
     padding-top: 70px;
   }
 
   .xl\:pt-\[80px\] {
     padding-top: 80px;
-  }
-
-  .xl\:pt-\[150px\] {
-    padding-top: 150px;
-  }
-
-  .xl\:pb-\[100px\] {
-    padding-bottom: 100px;
   }
 
   .xl\:text-left {
