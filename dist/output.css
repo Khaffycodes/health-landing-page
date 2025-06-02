@@ -841,10 +841,6 @@ body {
   margin-top: 2rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -875,10 +871,6 @@ body {
 
 .h-\[368px\] {
   height: 368px;
-}
-
-.h-\[4000px\] {
-  height: 4000px;
 }
 
 .h-\[400px\] {
@@ -1145,10 +1137,6 @@ body {
   border-right-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
 .border-\[\#dcdcdc\] {
   --tw-border-opacity: 1;
   border-color: rgb(220 220 220 / var(--tw-border-opacity, 1));
@@ -1157,11 +1145,6 @@ body {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-t-red-700 {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
 }
 
 .bg-accent {
@@ -1299,14 +1282,24 @@ body {
   padding-bottom: 10px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pb-12 {
@@ -1315,6 +1308,10 @@ body {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .pl-\[30px\] {
@@ -1333,8 +1330,16 @@ body {
   padding-top: 1.75rem;
 }
 
-.pb-\[10px\] {
-  padding-bottom: 10px;
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1700,17 +1705,6 @@ h1,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@media (min-width: 640px) {
-  .sm\:border-none {
-    border-style: none;
-  }
-
-  .sm\:border-t-red-700 {
-    --tw-border-opacity: 1;
-    border-top-color: rgb(185 28 28 / var(--tw-border-opacity, 1));
-  }
-}
-
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
@@ -1730,10 +1724,6 @@ h1,
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:border-t {
-    border-top-width: 1px;
   }
 
   .md\:text-left {
