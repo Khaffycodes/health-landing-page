@@ -39,7 +39,7 @@ const sr = ScrollReveal({
   origin: 'bottom',
   distance: '60px',
   duration: 3000,
-  delay: 600,
+  delay: 400,
   //reset:true, //resets anomation
 });
 
@@ -52,7 +52,7 @@ sr.reveal('.stats__item', {
   origin: 'top',
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
 
 //services
@@ -62,7 +62,7 @@ sr.reveal('.services__item', {
   origin: 'bottom',
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
 
 //appointment
@@ -83,7 +83,7 @@ sr.reveal('.faq__item', {
   origin: 'bottom',
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
 
 //departments
@@ -95,14 +95,14 @@ sr.reveal('.blog__title');
 sr.reveal('.blog__post', {
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
 
 //brand
 sr.reveal('.brands__logo', {
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
 
 //newsletter
@@ -113,5 +113,5 @@ sr.reveal('.newsletter__container');
 sr.reveal('.footer__item', {
   distance: '100px',
   interval: 100,
-  delay: 600,
+  delay: 400,
 });
